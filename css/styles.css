@@ -132,10 +132,9 @@ hr {
 
 #about {
   background-image: url(../assets/img/IMG_3064.jpg);
-  object-fit: scale-down;
-
-  background-repeat: no-repeat;
-  object-position: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 hr:not([size]) {
@@ -3904,6 +3903,13 @@ fieldset:disabled .btn {
   .dropdown-menu-sm-start[data-bs-popper] {
     right: auto;
     left: 0;
+  }
+  .about {
+    background-image: url(../assets/img/IMG_3064.jpg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .dropdown-menu-sm-end {
